@@ -12,7 +12,7 @@ const app = express();
 connectDB();
 app.use(
   cors({
-    origin: "http://localhost:3000/api/users",
+    origin: "https://user-info-134g.onrender.com",
   })
 );
 app.use(bodyParser.json());
